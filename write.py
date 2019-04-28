@@ -108,7 +108,8 @@ def gen_line(wb, size):
     return line[:len(line) - 1]
 
 
-def gen_haiku(wb):
+def gen_haiku(wb, file_path):
+    set_seed(file_path)
     return gen_line(wb, 5) + '\n' + gen_line(wb, 7) + '\n' + gen_line(wb, 5)
 
 
