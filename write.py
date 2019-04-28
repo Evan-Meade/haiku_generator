@@ -113,7 +113,7 @@ def gen_haiku(wb):
 
 
 def main():
-    set_seed('test.jpg')
+    set_seed('media/test2.jpg')
     wb = WordBank()
     print(gen_haiku(wb))
 
