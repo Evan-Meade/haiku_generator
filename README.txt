@@ -1,4 +1,4 @@
-Created by Evan Meade (github.com/kracken9500) 2019
+Created by Evan Meade (github.com/Evan-Meade, aka. kracken9500) 2019
 
 This project allows one to run a small program which scans an email inbox for new emails with image attachments. If it
 finds one, it uses it to seed the pseudorandom function and uses that to procedurally generate a haiku. It then
