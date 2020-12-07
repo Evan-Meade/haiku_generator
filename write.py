@@ -1,3 +1,15 @@
+'''
+write.py (haiku_generator)
+
+Evan Meade, 2019
+
+Hello! I am glad you're here, but I must admit that there is not much
+of value to find here. This script does indeed generate haikus, but
+boy is it some poorly written code. It'll work if you need that kind
+of thing, but you're not going to learn much of anything good looking
+at this.
+'''
+
 import random
 import hashlib
 from PIL import Image
@@ -114,9 +126,9 @@ def gen_haiku(wb, file_path):
 
 
 def main():
-    set_seed('media/test2.jpg')
+    seed_file = 'media/test.jpg'
     wb = WordBank()
-    print(gen_haiku(wb))
+    print(gen_haiku(wb, seed_file))
 
 
 if __name__ == "__main__":
